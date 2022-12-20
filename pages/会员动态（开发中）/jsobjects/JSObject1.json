@@ -1,0 +1,29 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "会员动态（开发中）",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\twelcome: `Welcome to our group! Here's a link to the new member paperwork:\n`,\n\trenewal: `A friendly reminder that your membership is about to expire. Please renew your subscriptions at:\n`,\n\tthankyou: `Thank you for supporting our group! Your membership has been renewed.\n`,\n\tonOpen: () => {\n\t\tstoreValue('msgName',appsmith.store.msgName || 'welcome')\n\t}\n\t\n\t\n\t\n\n}",
+    "variables": [
+      {
+        "name": "welcome",
+        "value": "`Welcome to our group! Here's a link to the new member paperwork:\n`"
+      },
+      {
+        "name": "renewal",
+        "value": "`A friendly reminder that your membership is about to expire. Please renew your subscriptions at:\n`"
+      },
+      {
+        "name": "thankyou",
+        "value": "`Thank you for supporting our group! Your membership has been renewed.\n`"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "会员动态（开发中）_JSObject1",
+  "deleted": false,
+  "gitSyncId": "63927312d06b483662515799_63927cfcd06b4836625157b5"
+}
